@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.contentContainer {
+  min-height: 100vh;
+  z-index: 10;
+  background-color: #191414;
+
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 5vh;
+  padding-top: 10vh;
+
+
+  justify-content: center;
+  display: flex;
+}
+
+#header {
+  top:4vh;
+  position: absolute;
+  color: #1DB954;
+  left:1vw;
+
+
+  font-size: 3em;
+  font-family: 'Roboto';
+
+}
+
+.contentColumn {
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.signInButton:hover {
+  border-radius: 8px;
+  height: 7vh;
+  width: 10vw;
+
+  min-width: 150px;
+  min-height: 20px;
+
+  font-size: 1em;
+  font-weight: bolder;
+
+  background-color: #1DB954;
+  color: black;
+}
+
+#cardContainer {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.lyric-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  color: white;
+  padding-left: 1vw;
+  padding-right: 5vw;
+  /* margin: 10vw; */
+  /* margin-left: 5vw; */
+  /* line-height: 1.5em; */
+  background-color: rgba(169,169,169, .25);
+
+  min-width: 337px;
+  width: 90vw;
+
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: 'Merriweather';
+
+  border-radius: 10px;
+}
+
+.lyrics {
+  top:0;
+  min-width: 320px;
+  max-width: 35vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+
+  border-width: 1px;
+  border-color: white;
+
+}
+
+#loading {
+  color: white;
+}
